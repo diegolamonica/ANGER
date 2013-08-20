@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple ANGER usage</title>
+		
+		<style type="text/css">
+			#my-menu ul{
+				margin: 0;
+				padding: 0.5em;
+				border-bottom: 1px solid #ccc;
+				list-style: none;
+			}
+				#my-menu ul li{
+					display: inline !important;
+					margin: 0;
+					padding: 0.5em;
+					border-left: 1px solid #ccc;
+					list-style: none;
+					background-color: #557A57;
+					
+				}
+					#my-menu ul li a{
+						font-family: Arial;
+						color: #fff;
+					}
+					#my-menu ul li:last-child{
+						border-right: 1px solid #ccc;
+					}
+					
+			
+					
+		</style>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="https://raw.github.com/diegolamonica/ANGER/master/anger.js"></script>
+		
+		<script type="text/javascript">
+		
+			jQuery(document).ready(function(){
+				jQuery('#my-menu').anger( );
+				
+			});
+			
+		</script>
+	</head>
+	<body>
+		<div id="app-container">
+			<nav id="my-menu">
+				<ul>
+					<li><a href="#Menu1">Menu 1</a></li>
+					<li><a href="#Menu2">Menu 2</a></li>
+					<li><a href="#Menu3">Menu 3</a></li>
+					<li><a href="#Menu4">Menu 4</a></li>
+				</ul>
+			</nav>
+				<h1>Responsive menu with <a href="https://github.com/diegolamonica/ANGER/">ANGER</a> is simple!</h1>
+				<p>
+				  ANGER supports both mouse and touch events.
+				</p>
+		</div>
+	</body>
+</html>
