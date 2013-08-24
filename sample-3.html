@@ -15,9 +15,14 @@
 			list-style: none;
 		}
 		
+		body{
+			background: #eee;
+		}
+		
 		.container{
 			margin: auto;
 			width: 960px;
+			background: #ccc;
 		}
 		
 		</style>
@@ -44,9 +49,8 @@
 		
 			jQuery(document).ready(function(){
 				
-				jQuery('nav').anger({
-					swipeDirection	: 	'right'
-				});
+				//jQuery('nav').anger('menu-selector');
+				jQuery('nav').anger({ 'activator': 'menu-selector' });
 				
 			});
 			
