@@ -32,8 +32,8 @@ $.fn.anger = function(options){
 		 */
 		closedOnDefault: true,
 		
-		menuAppliedCSS: "padding:0; margin: 0; display: block; position: fixed; left: 0; top: ##; overflow: hidden; width: 300px",
-		itemAppliedCSS: "display: block !important; border-bottom: 1px solid #ccc; background-color: rgba(0,0,0, 0.7); ",
+		menuAppliedCSS: "padding:0; margin: 0; display: block; position: fixed; left: 0; top: ##; overflow: hidden; width: 90%",
+		itemAppliedCSS: "display: block !important; border-bottom: 1px solid #ccc; background-color: white; text-align: center; padding: 5px; ",
 		linkAppliedCSS: "display: block !important; height: 1em; overflow: hidden; ",
 
 		/*

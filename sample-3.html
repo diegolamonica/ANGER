@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Simple ANGER usage</title>
+		
+		<style>
+		
+		*{
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+		
+		.container{
+			margin: auto;
+			width: 960px;
+		}
+		
+		</style>
+		
+	</head>
+	<body>
+	
+		<div class="container">
+		
+		<nav>
+			<ul>
+				<li><a href="#">Home page</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Portfolio</a></li>
+				<li><a href="#">Contacts</a></li>
+			</ul>
+		</nav>
+		
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script type="text/javascript" src="javascripts/anger.js"></script>
+		
+		<script type="text/javascript">
+		
+			jQuery(document).ready(function(){
+				
+				jQuery('nav').anger({
+					swipeDirection	: 	'right'
+				});
+				
+			});
+			
+		</script>
+		
+	</body>
+</html>
